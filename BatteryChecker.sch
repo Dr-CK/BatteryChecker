@@ -60,34 +60,24 @@ F 3 "~" V 4400 1660 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 3850 7150 4050
-Connection ~ 7150 3850
+	9250 4100 9100 4100
 Wire Wire Line
-	7900 3850 7150 3850
-Wire Wire Line
-	7150 3700 7150 3850
-Wire Wire Line
-	8450 3650 8300 3650
-Wire Wire Line
-	8450 4150 8450 3650
+	9250 4600 9250 4100
 $Comp
 L power:Earth #PWR010
 U 1 1 61DF3188
-P 8450 4150
-F 0 "#PWR010" H 8450 3900 50  0001 C CNN
-F 1 "Earth" H 8450 4000 50  0001 C CNN
-F 2 "" H 8450 4150 50  0001 C CNN
-F 3 "~" H 8450 4150 50  0001 C CNN
-	1    8450 4150
+P 9250 4600
+F 0 "#PWR010" H 9250 4350 50  0001 C CNN
+F 1 "Earth" H 9250 4450 50  0001 C CNN
+F 2 "" H 9250 4600 50  0001 C CNN
+F 3 "~" H 9250 4600 50  0001 C CNN
+	1    9250 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 3650 7750 3650
-Text GLabel 7750 3650 0    50   Input ~ 0
+	8700 4100 8550 4100
+Text GLabel 8550 4100 0    50   Input ~ 0
 G
-Wire Wire Line
-	5900 5350 6000 5350
-Connection ~ 5900 5350
 Wire Wire Line
 	5900 5550 6000 5550
 Wire Wire Line
@@ -96,67 +86,6 @@ Text GLabel 6000 5550 2    50   Output ~ 0
 G
 Wire Wire Line
 	5800 7150 6000 7150
-Wire Wire Line
-	5800 6550 6000 6550
-Wire Wire Line
-	5800 5950 6000 5950
-Wire Wire Line
-	5800 5350 5900 5350
-Wire Wire Line
-	5900 4750 6000 4750
-Wire Wire Line
-	7150 4450 7150 4600
-Wire Wire Line
-	7150 3250 7150 3400
-$Comp
-L power:Earth #PWR09
-U 1 1 61DD4C85
-P 7150 4600
-F 0 "#PWR09" H 7150 4350 50  0001 C CNN
-F 1 "Earth" H 7150 4450 50  0001 C CNN
-F 2 "" H 7150 4600 50  0001 C CNN
-F 3 "~" H 7150 4600 50  0001 C CNN
-	1    7150 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR08
-U 1 1 61DD4021
-P 7150 3250
-F 0 "#PWR08" H 7150 3100 50  0001 C CNN
-F 1 "+5V" H 7165 3423 50  0000 C CNN
-F 2 "" H 7150 3250 50  0001 C CNN
-F 3 "" H 7150 3250 50  0001 C CNN
-	1    7150 3250
-	1    0    0    -1  
-$EndComp
-Connection ~ 5900 4750
-Wire Wire Line
-	5900 4250 5900 4750
-Wire Wire Line
-	6850 4250 5900 4250
-$Comp
-L Device:R_US R14
-U 1 1 61DD08C5
-P 7150 3550
-F 0 "R14" H 7218 3596 50  0000 L CNN
-F 1 "1kohm" H 7218 3505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7190 3540 50  0001 C CNN
-F 3 "~" H 7150 3550 50  0001 C CNN
-	1    7150 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:PN2222A Q1
-U 1 1 61DCEFD4
-P 7050 4250
-F 0 "Q1" H 7240 4296 50  0000 L CNN
-F 1 "PN2222A" H 7240 4205 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 7250 4175 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 7050 4250 50  0001 L CNN
-	1    7050 4250
-	1    0    0    -1  
-$EndComp
 Connection ~ 6450 7150
 Wire Wire Line
 	6450 7150 6450 7300
@@ -213,8 +142,6 @@ Wire Wire Line
 	5350 5950 5500 5950
 Wire Wire Line
 	5350 5350 5500 5350
-Wire Wire Line
-	5800 4750 5900 4750
 Wire Wire Line
 	5350 4750 5500 4750
 $Comp
@@ -328,70 +255,53 @@ F 3 "~" H 5650 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3950 4250 3950 4400
-Connection ~ 3950 6650
-Wire Wire Line
-	3950 6800 3950 6650
+	3150 4250 3150 4400
 $Comp
 L power:Earth #PWR03
 U 1 1 61DA3D41
-P 3950 7250
-F 0 "#PWR03" H 3950 7000 50  0001 C CNN
-F 1 "Earth" H 3950 7100 50  0001 C CNN
-F 2 "" H 3950 7250 50  0001 C CNN
-F 3 "~" H 3950 7250 50  0001 C CNN
-	1    3950 7250
+P 3150 7250
+F 0 "#PWR03" H 3150 7000 50  0001 C CNN
+F 1 "Earth" H 3150 7100 50  0001 C CNN
+F 2 "" H 3150 7250 50  0001 C CNN
+F 3 "~" H 3150 7250 50  0001 C CNN
+	1    3150 7250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR02
 U 1 1 61DA3728
-P 3950 4250
-F 0 "#PWR02" H 3950 4100 50  0001 C CNN
-F 1 "+5V" H 3965 4423 50  0000 C CNN
-F 2 "" H 3950 4250 50  0001 C CNN
-F 3 "" H 3950 4250 50  0001 C CNN
-	1    3950 4250
+P 3150 4250
+F 0 "#PWR02" H 3150 4100 50  0001 C CNN
+F 1 "+5V" H 3165 4423 50  0000 C CNN
+F 2 "" H 3150 4250 50  0001 C CNN
+F 3 "" H 3150 4250 50  0001 C CNN
+	1    3150 4250
 	1    0    0    -1  
 $EndComp
-Connection ~ 3950 5450
-Wire Wire Line
-	3950 5600 3950 5450
-Wire Wire Line
-	4600 5850 4750 5850
-Wire Wire Line
-	4600 6450 4750 6450
-Wire Wire Line
-	3950 6500 3950 6650
-Connection ~ 3950 6050
-Wire Wire Line
-	3950 6050 3950 5900
-Wire Wire Line
-	3950 6050 3950 6200
 Text GLabel 4600 6450 0    50   Input ~ 0
 TEST
 $Comp
 L Device:R_US R7
 U 1 1 61DA2455
-P 3950 6350
-F 0 "R7" H 4018 6396 50  0000 L CNN
-F 1 "91ohm" H 4018 6305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3990 6340 50  0001 C CNN
-F 3 "~" H 3950 6350 50  0001 C CNN
-	1    3950 6350
+P 3150 6350
+F 0 "R7" H 3218 6396 50  0000 L CNN
+F 1 "91ohm" H 3218 6305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 6340 50  0001 C CNN
+F 3 "~" H 3150 6350 50  0001 C CNN
+	1    3150 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4600 5850 0    50   Input ~ 0
+Text GLabel 3950 4650 0    50   Input ~ 0
 TEST
 $Comp
 L Device:R_US R6
 U 1 1 61DA244E
-P 3950 5750
-F 0 "R6" H 4018 5796 50  0000 L CNN
-F 1 "82ohm" H 4018 5705 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3990 5740 50  0001 C CNN
-F 3 "~" H 3950 5750 50  0001 C CNN
-	1    3950 5750
+P 3150 5750
+F 0 "R6" H 3218 5796 50  0000 L CNN
+F 1 "82ohm" H 3218 5705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 5740 50  0001 C CNN
+F 3 "~" H 3150 5750 50  0001 C CNN
+	1    3150 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -417,40 +327,33 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 5050 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 4650 4750 4650
+	4600 5850 4750 5850
 Wire Wire Line
 	4600 5250 4750 5250
-Wire Wire Line
-	3950 5300 3950 5450
-Connection ~ 3950 4850
-Wire Wire Line
-	3950 4850 3950 4700
-Wire Wire Line
-	3950 4850 3950 5000
 Text GLabel 4600 5250 0    50   Input ~ 0
 TEST
 $Comp
 L Device:R_US R5
 U 1 1 61D816FF
-P 3950 5150
-F 0 "R5" H 4018 5196 50  0000 L CNN
-F 1 "82ohm" H 4018 5105 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3990 5140 50  0001 C CNN
-F 3 "~" H 3950 5150 50  0001 C CNN
-	1    3950 5150
+P 3150 5150
+F 0 "R5" H 3218 5196 50  0000 L CNN
+F 1 "82ohm" H 3218 5105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 5140 50  0001 C CNN
+F 3 "~" H 3150 5150 50  0001 C CNN
+	1    3150 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4600 4650 0    50   Input ~ 0
+Text GLabel 4600 5850 0    50   Input ~ 0
 TEST
 $Comp
 L Device:R_US R4
 U 1 1 61D7F440
-P 3950 4550
-F 0 "R4" H 4018 4596 50  0000 L CNN
-F 1 "3kohm" H 4018 4505 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3990 4540 50  0001 C CNN
-F 3 "~" H 3950 4550 50  0001 C CNN
-	1    3950 4550
+P 3150 4550
+F 0 "R4" H 3218 4596 50  0000 L CNN
+F 1 "3kohm" H 3218 4505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 4540 50  0001 C CNN
+F 3 "~" H 3150 4550 50  0001 C CNN
+	1    3150 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -485,37 +388,29 @@ Connection ~ 4400 1850
 $Comp
 L Device:R_US R8
 U 1 1 61E6E27A
-P 3950 6950
-F 0 "R8" H 4018 6996 50  0000 L CNN
-F 1 "750ohm" H 4018 6905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3990 6940 50  0001 C CNN
-F 3 "~" H 3950 6950 50  0001 C CNN
-	1    3950 6950
+P 3150 6950
+F 0 "R8" H 3218 6996 50  0000 L CNN
+F 1 "750ohm" H 3218 6905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 6940 50  0001 C CNN
+F 3 "~" H 3150 6950 50  0001 C CNN
+	1    3150 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 7250 3950 7100
-Wire Wire Line
-	3950 4850 4750 4850
-Wire Wire Line
-	3950 5450 4750 5450
-Wire Wire Line
-	3950 6050 4750 6050
-Wire Wire Line
-	3950 6650 4750 6650
-NoConn ~ 7900 3450
+	3150 7250 3150 7100
+NoConn ~ 8700 3900
 NoConn ~ 3600 3100
 NoConn ~ 3600 3200
 NoConn ~ 3600 3300
 Wire Notes Line
-	6700 4950 8950 4950
+	7800 5300 10050 5300
 Wire Notes Line
-	8950 4950 8950 2750
+	10050 5300 10050 3100
 Wire Notes Line
-	8950 2750 6700 2750
+	10050 3100 7800 3100
 Wire Notes Line
-	6700 2750 6700 4950
-Text Notes 6750 2850 0    50   ~ 0
+	7800 3100 7800 5300
+Text Notes 7850 3200 0    50   ~ 0
 Only used in mode B, see BOM!
 Wire Wire Line
 	4700 3500 5250 3500
@@ -659,12 +554,12 @@ Connection ~ 6900 1850
 $Comp
 L Device:LED_RCGB D6
 U 1 1 61D99707
-P 8100 3650
-F 0 "D6" H 8100 3183 50  0000 C CNN
-F 1 "LED_RCGB" H 8100 3274 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 8100 3600 50  0001 C CNN
-F 3 "~" H 8100 3600 50  0001 C CNN
-	1    8100 3650
+P 8900 4100
+F 0 "D6" H 8900 3633 50  0000 C CNN
+F 1 "LED_RCGB" H 8900 3724 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins" H 8900 4050 50  0001 C CNN
+F 3 "~" H 8900 4050 50  0001 C CNN
+	1    8900 4100
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -865,4 +760,83 @@ Wire Wire Line
 Connection ~ 4850 1850
 Wire Wire Line
 	4400 2050 4400 1850
+Wire Wire Line
+	5800 4750 5900 4750
+Wire Wire Line
+	5800 5350 5900 5350
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J2
+U 1 1 61DC2420
+P 4300 4700
+F 0 "J2" H 4350 4917 50  0000 C CNN
+F 1 "Mode selector" H 4350 4826 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x02_P1.27mm_Vertical" H 4300 4700 50  0001 C CNN
+F 3 "~" H 4300 4700 50  0001 C CNN
+	1    4300 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 6450 4750 6450
+Wire Wire Line
+	3150 6500 3150 6650
+Wire Wire Line
+	3150 5300 3150 5450
+Wire Wire Line
+	4100 4850 4100 4800
+Wire Wire Line
+	3150 4850 4100 4850
+Wire Wire Line
+	4750 4850 4600 4850
+Wire Wire Line
+	4600 4850 4600 4800
+Wire Wire Line
+	4600 4650 4600 4700
+Wire Wire Line
+	4600 4650 4750 4650
+Wire Wire Line
+	3950 4650 4100 4650
+Wire Wire Line
+	4100 4650 4100 4700
+Wire Wire Line
+	4750 6650 3150 6650
+Connection ~ 3150 6650
+Wire Wire Line
+	3150 6650 3150 6800
+Wire Wire Line
+	4750 5450 3150 5450
+Connection ~ 3150 5450
+Wire Wire Line
+	3150 5450 3150 5600
+Wire Wire Line
+	4750 6050 3150 6050
+Wire Wire Line
+	5900 4950 6000 4950
+Wire Wire Line
+	5900 4750 5900 4950
+Text GLabel 6000 4950 2    50   Output ~ 0
+R
+Wire Wire Line
+	8700 4300 8550 4300
+Text GLabel 8550 4300 0    50   Input ~ 0
+R
+Wire Wire Line
+	3150 4700 3150 4850
+Connection ~ 3150 4850
+Wire Wire Line
+	3150 4850 3150 5000
+Wire Wire Line
+	3150 5900 3150 6050
+Connection ~ 3150 6050
+Wire Wire Line
+	3150 6050 3150 6200
+Connection ~ 5900 4750
+Wire Wire Line
+	5900 4750 6000 4750
+Wire Wire Line
+	5800 5950 6000 5950
+Connection ~ 5900 5350
+Wire Wire Line
+	5900 5350 6000 5350
+Wire Wire Line
+	5800 6550 6000 6550
 $EndSCHEMATC
