@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Battery checker"
-Date "2022-01-06"
-Rev "2.0"
+Date "2022-01-11"
+Rev "3.0"
 Comp "Christoffer Karlsson"
 Comment1 ""
 Comment2 ""
